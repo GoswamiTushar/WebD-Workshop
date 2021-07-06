@@ -31,7 +31,7 @@ function changeData() {
     var project = projects[counter];
     projectName.innerHTML = `${project}`;
     projectDesc.innerHTML = `${projectDescription[project]}`;
-    projectLink.innerHTML = `${projectsLinks[project]}`;
+    projectLink.innerHTML = `<a style="text-decoration: none" href="\`${projectsLinks[project]}\`">Link to the project</a>`;
   }
 
   counter += 1;
