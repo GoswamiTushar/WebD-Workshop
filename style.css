@@ -54,3 +54,21 @@ body {
 .hide-item {
   display: none;
 }
+
+.card-container {
+  background-color: white;
+  margin: 4rem;
+  padding: 4rem;
+  min-height: 50vh;
+  max-height: 100vh;
+  border-radius: 2rem;
+}
+
+.divider-grey {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  width: 50px;
+  border-top: 2px solid rgb(54, 54, 54);
+  padding-bottom: 1rem;
+}
